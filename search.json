@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "hello.html",
+    "href": "hello.html",
+    "title": "Hello",
+    "section": "",
+    "text": "source\n\nsay_hello\n\n say_hello (to)\n\nSay hello to somebody\n\nsay_hello('Renoir')\n\n'Hello Renoir!'\n\n\n\nfrom fastcore.test import *\n\n\ntest_eq(say_hello('Claire'), 'Hello Claire!')\n\n\nfrom IPython.display import display,SVG\n\n\n#! export\nclass HelloSayer:\n    'Say hello to `to` using `say_hello`'\n    def __init__(self, to): self.to = to\n    \n    def say(self):\n        'Do the saying'\n        return say_hello(self.to)\n\n\no = HelloSayer('Cindy')\no.say()\n\n'Hello Cindy!'"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "nbdev-hello-world",
+    "section": "",
+    "text": "pip install nbdev_hello_world"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "nbdev-hello-world",
+    "section": "How to use",
+    "text": "How to use\nYou can say hello to someone\n\nsay_hello('Hamel')\n\n'Hello Hamel!'"
+  }
+]
